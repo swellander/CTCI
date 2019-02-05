@@ -26,9 +26,12 @@ class BST {
 }
 
 //Construct a BST with 128 random integers
-const vals = [];
-for (let i = 0; i < 50; i++) vals.push(Math.round(Math.random() * 128));
-const root = new BST(50);
-for (num of vals) root.insert(num);
+// const vals = [];
+// for (let i = 0; i < 50; i++) vals.push(Math.round(Math.random() * 128));
+const nums = [4, 8, 11, 13, 4, 7, 2, 1];
+const root = new BST(5);
+for (num of nums) root.insert(num);
+
+root.traverse();
 
 module.exports = { root };
