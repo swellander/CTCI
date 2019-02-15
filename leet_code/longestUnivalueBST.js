@@ -42,3 +42,5 @@ function longestsUnivaluePath(root) {
 const output = longestsUnivaluePath(root);
 
 console.log(output);
+
+module.exports = Node;
