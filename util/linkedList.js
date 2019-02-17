@@ -48,4 +48,4 @@ class LinkedList {
   }
 }
 
-module.exports = { LinkedList, printList };
+module.exports = { LinkedList, printList, Node };
