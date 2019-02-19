@@ -1,9 +1,11 @@
 /*
+Magic index
+==============
+
 A magic index in an array arr[0...n-1] is defined to be an index such that arr[i] === i. Given a sorted array of distinct integers, write a method to find a magic index, if one exists, in array arr.
 */
 
 function magicIndex(arr, brace = 0) {
-  //base case
   //if arr has only 1 el and el is not magic index: return -1
   if (!arr.length) return -1;
   //grab mid index and value
@@ -23,6 +25,5 @@ function magicIndex(arr, brace = 0) {
 }
 
 const array = [-4, -2, 0, 1, 3, 6, 7, 10];
-const input = [-1, 2];
 const output = magicIndex(array);
 console.log(output); //5
