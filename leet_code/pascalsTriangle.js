@@ -13,5 +13,5 @@ function generate(n) {
   return triangle;
 }
 
-const output = generate(7);
+const output = generate(12);
 console.table(output);
