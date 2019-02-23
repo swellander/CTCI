@@ -31,6 +31,8 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 const { printList, LinkedList } = require("../util/linkedList");
 
+//Recursive solution
+//===================================================================
 var reverseList = function(head) {
   //base case - if head does not have a next return head
   if (!head.next) return head;
@@ -42,6 +44,18 @@ var reverseList = function(head) {
   head.next = null;
   return top;
 };
+
+//Iterative solution
+//===================================================================
+var reverseListIteratively = function(head) {
+  //grab end of list
+  //keep track of tail
+  //while tail !== old head 
+    //get last node
+    
+};
+
+
 
 const list = new LinkedList();
 list.generate(10);
