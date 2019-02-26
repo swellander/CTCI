@@ -29,7 +29,7 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 //1 => 3 => 2
 //3 => 2 => 1
 
-const { printList, LinkedList } = require("../util/linkedList");
+const { printList, LinkedList } = require("../../util/linkedList");
 
 //Recursive solution
 //===================================================================

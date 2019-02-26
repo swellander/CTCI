@@ -17,10 +17,10 @@ Output:
 ]
 */
 
-var generate = function(numRows: number): number[][] {
-  //base case
-  if (numRows === 1) {
+// var generate = function(numRows: number): number[][] {
+//   //base case
+//   if (numRows === 1) {
 
-  }
-  return [[]];
-};
+//   }
+//   return [[]];
+// };

@@ -10,7 +10,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-const { Node, LinkedList, printList } = require("../util/linkedList");
+const { Node, LinkedList, printList } = require("../../util/linkedList");
 
 const aList = new LinkedList(1);
 aList.insert(2);

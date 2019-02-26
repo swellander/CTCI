@@ -4,7 +4,7 @@
 
 // Given 1->2->3->4, you should return the list as 2->1->4->3.
 
-const { LinkedList, printList } = require("../util/linkedList");
+const { LinkedList, printList } = require("../../util/linkedList");
 const list = new LinkedList().generate(8);
 function swapPairs(head) {
   //returns a listnode
